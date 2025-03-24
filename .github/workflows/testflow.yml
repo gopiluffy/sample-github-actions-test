@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Run the file
-        run: ./testmycode.sh
+        run: chmod +x *.sh && ./testmycode.sh
